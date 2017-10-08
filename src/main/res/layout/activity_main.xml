@@ -1,0 +1,305 @@
+<!-- Copyright (C) 2015 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="16dp"
+        android:background="#e0f2f1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime"/>
+            <TextView
+                style="@style/HeaderTextStyle"
+                android:text="@string/welcome"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            style="@style/QuesTextStyle"
+            android:text="@string/q1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q1a1"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="start"
+                android:text="@string/q1a1" />
+
+            <CheckBox
+                android:id="@+id/q1a2"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="end"
+                android:text="@string/q1a2" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuesTextStyle"
+            android:text="@string/q2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q2a1"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="start"
+                android:text="@string/q2a1" />
+
+            <CheckBox
+                android:id="@+id/q2a2"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="end"
+                android:text="@string/q2a2" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuesTextStyle"
+            android:text="@string/q3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q3a1"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="start"
+                android:text="@string/q3a1" />
+
+            <CheckBox
+                android:id="@+id/q3a2"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="end"
+                android:text="@string/q3a2" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuesTextStyle"
+            android:text="@string/q4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q4a1"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="start"
+                android:text="@string/q4a1"
+                android:contextClickable="true"/>
+
+            <CheckBox
+                android:id="@+id/q4a2"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="end"
+                android:text="@string/q4a2" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuesTextStyle"
+            android:text="@string/q5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q5a1"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="start"
+                android:text="@string/q5a1" />
+
+            <CheckBox
+                android:id="@+id/q5a2"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="end"
+                android:text="@string/q5a2" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuesTextStyle"
+            android:text="@string/q6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q6a1"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="start"
+                android:text="@string/q6a1" />
+
+            <CheckBox
+                android:id="@+id/q6a2"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="end"
+                android:text="@string/q6a2" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuesTextStyle"
+            android:text="@string/q7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q7a1"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="start"
+                android:text="@string/q7a1" />
+
+            <CheckBox
+                android:id="@+id/q7a2"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="end"
+                android:text="@string/q7a2" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuesTextStyle"
+            android:text="@string/q8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q8a1"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="start"
+                android:text="@string/q8a1" />
+
+            <CheckBox
+                android:id="@+id/q8a2"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="end"
+                android:text="@string/q8a2" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuesTextStyle"
+            android:text="@string/q9" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q9a1"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="start"
+                android:text="@string/q9a1" />
+
+            <CheckBox
+                android:id="@+id/q9a2"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="end"
+                android:text="@string/q9a2" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuesTextStyle"
+            android:text="@string/q10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q10a1"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="start"
+                android:text="@string/q10a1" />
+
+            <RadioButton
+                android:id="@+id/q10a2"
+                style="@style/AnsTextStyle"
+                android:layout_gravity="end"
+                android:text="@string/q10a2" />
+
+        </LinearLayout>
+
+        <!--LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        </LinearLayout-->
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00695c"
+            android:textColor="#e0f7fa"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:onClick="submitQuiz"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/submit"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/point_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/AnsTextStyle"/>
+
+    </LinearLayout>
+</ScrollView>
